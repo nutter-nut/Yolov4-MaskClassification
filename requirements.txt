@@ -1,0 +1,13 @@
+opencv-python==4.1.1.26
+lxml
+tqdm
+tensorflow==2.6.2
+absl-py
+easydict
+matplotlib
+pillow
+pytesseract
+pygame
+openpyxl
+pandas
+mysql-connector 
