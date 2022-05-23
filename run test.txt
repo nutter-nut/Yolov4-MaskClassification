@@ -6,3 +6,5 @@ python detect_video_save.py --weights ./checkpoints/yolov4-tiny-416 --size 416 -
 python detect_video.py --weights ./checkpoints/yolov4-tiny-416 --size 416 --model yolov4 --video 0 --output ./detections/webcam.avi --count
 --image
 python detect.py --weights ./checkpoints/yolov4-tiny-416 --size 416 --model yolov4 --images ./data/images/4.jpg --count
+--python to exe
+pyinstaller --onefile --noconsole --icon=favicon.ico main.py
