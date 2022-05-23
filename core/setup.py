@@ -3,6 +3,7 @@ import pip
 def install(package):
     if hasattr(pip, 'main'):
         pip.main(['install', 'opencv-python==4.1.1.26'])
+        pip.main(['install', 'opencv-python==4.1.2.30'])
         pip.main(['install', 'lxml'])
         pip.main(['install', 'tqdm'])
         pip.main(['install', 'tensorflow==2.6.2'])
