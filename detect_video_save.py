@@ -34,7 +34,7 @@ def main(_argv):
     out = None
 
     fourcc = cv2.VideoWriter_fourcc(*'XVID')
-    out = cv2.VideoWriter('./detections/webcam_5.avi',fourcc, 15, (640,480))         
+    out = cv2.VideoWriter('./detections/webcam_1.avi',fourcc, 15, (640,480))         
 
 
     frame_num = 0
