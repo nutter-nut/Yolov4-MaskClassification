@@ -1,4 +1,7 @@
+from fileinput import filename
 import os
+
+from django.urls import path
 # comment out below line to enable tensorflow outputs
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 import time
@@ -14,6 +17,9 @@ import cv2
 import numpy as np
 from tensorflow.compat.v1 import ConfigProto
 import datetime 
+import random
+import string
+
 
 def main(_argv):
     config = ConfigProto() #ใช้ ConfigProto() เพื่อกำหนดค่าเซสชัน
@@ -33,8 +39,12 @@ def main(_argv):
 
     out = None
 
+    videoname = string.ascii_uppercase
+    vname = ''.join(random.choice(videoname) for i in range(10))
+    path_vdo = "./detections/"
+    
     fourcc = cv2.VideoWriter_fourcc(*'XVID')
-    out = cv2.VideoWriter('./detections/webcam_1.avi',fourcc, 15, (640,480))         
+    out = cv2.VideoWriter(str(path_vdo+vname+".avi"),fourcc, 15, (640,480))         
 
 
     frame_num = 0
