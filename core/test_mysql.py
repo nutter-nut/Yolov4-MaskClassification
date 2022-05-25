@@ -1,5 +1,5 @@
 import mysql.connector
-from tabulate import tabulate
+# from tabulate import tabulate
 
 #pandas mysql
 import pandas as pd

@@ -1,17 +1,17 @@
-import os
-import cv2
-import random
-import numpy as np
-import tensorflow as tf
-import pytesseract
+# import os
+# import cv2
+# import random
+# import numpy as np
+# import tensorflow as tf
+# import pytesseract
 from core.utils import read_class_names
 from core.config import cfg
 import pygame
 
 import mysql.connector
 import datetime
-import openpyxl
-import pandas as pd
+# import openpyxl
+# import pandas as pd
 
 
 def sound_s(key):

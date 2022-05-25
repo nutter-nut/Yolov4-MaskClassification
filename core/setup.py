@@ -13,8 +13,8 @@ def install(package):
         pip.main(['install', 'pillow'])
         pip.main(['install', 'pytesseract'])
         pip.main(['install', 'pygame'])
-        pip.main(['install', 'openpyxl'])
-        pip.main(['install', 'pandas'])
+        # pip.main(['install', 'openpyxl'])
+        # pip.main(['install', 'pandas'])
         pip.main(['install', 'mysql-connector'])  
     else:
         print("install error")
