@@ -12,6 +12,6 @@
 2. ดาวน์โหลดโปแกรมจำแนกประเภทหน้า จาก https://github.com/nutter-nut/Yolov4-MaskClassification.git
 
 3. เข้าโฟลเดอร์ Yolov4-MaskClassification และทำการติดตั้ง ไลบรารี่ ดับเบิ้ลคลิกที่ไฟล์ install_requirements.exe เมื่อติดตั้งเสร็จ Command Prompt จะปิดอัตโนมัติ
-<p ><img src="/data/images/python_path.png"\></p>
+<p ><img src="/data/images/installl pip.png"\></p>
 4. เปิดโปรแกรมจำแนก โดยดับเบิ้ลคลิกที่ไฟล์ MaskClassification showconsole.exe
-
+<p ><img src="/data/images/detection.png"\></p>
