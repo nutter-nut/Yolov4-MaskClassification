@@ -1,7 +1,4 @@
-from fileinput import filename
 import os
-
-from django.urls import path
 # comment out below line to enable tensorflow outputs
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 import time
